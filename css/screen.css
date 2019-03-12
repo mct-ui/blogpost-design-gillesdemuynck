@@ -35,6 +35,7 @@
   font-weight: 400;
   src: url("../Fonts/Droid-Serif/DroidSerif-Regular-webfont.woff"),
 }
+
 /*
     Elements: Page
     ---
@@ -46,6 +47,8 @@ html {
   font-family: "DroidSerif", Georgia, serif;
   color: #5C6366;
   padding: 48px 24px 24px;
+  -WebKit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -88,10 +91,10 @@ h3 {
 }
 
 h1 {
+  font-family: "Playfair Display", serif;
   font-size: 36px;
   line-height: 40px;
   margin: 0 0 24px;
-  color: #17181A;
 }
 
 h2 {
