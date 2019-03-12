@@ -12,6 +12,29 @@
     /*src:url("../Fonts/Inter-UI/Inter-UI-Regular.woff");*/
 }
 
+@font-face {
+  font-family: "Inter UI";
+  font-weight: 400;
+  src: url("../Fonts/Droid-Serif/DroidSerif-Bold-webfont.woff"),
+}
+
+@font-face {
+  font-family: "Inter UI";
+  font-weight: 400;
+  src: url("../Fonts/Droid-Serif/DroidSerif-BoldItalic-webfont.woff"),
+}
+
+@font-face {
+  font-family: "Inter UI";
+  font-weight: 400;
+  src: url("../Fonts/Droid-Serif/DroidSerif-Italic-webfont.woff"),
+}
+
+@font-face {
+  font-family: "Inter UI";
+  font-weight: 400;
+  src: url("../Fonts/Droid-Serif/DroidSerif-Regular-webfont.woff"),
+}
 /*
     Elements: Page
     ---
@@ -20,7 +43,7 @@
 html {
   font-size: 16px;
   line-height: 1.5;
-  font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+  font-family: "DroidSerif", Georgia, serif;
   color: #5C6366;
   padding: 48px 24px 24px;
 }
@@ -61,6 +84,7 @@ h1,
 h2,
 h3 {
   color: #17181A;
+  font-family: "Inter UI", "Helvetica Neue", Helvetica, arial, sans-serif;
 }
 
 h1 {
